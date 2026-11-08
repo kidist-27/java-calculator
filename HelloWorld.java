@@ -12,6 +12,10 @@ public class HelloWorld {
         // Subtraction
         int difference = subtract(20, 10);
         System.out.println("Subtraction: " + difference);
+
+        // Multiplication
+        int product = multiply(10, 20);
+        System.out.println("Multiplication: " + product);
     }
 
     // Addition method
@@ -22,6 +26,10 @@ public class HelloWorld {
     // Subtraction method
     public static int subtract(int a, int b) {
         return a - b;
-    
+    }
+
+    // Multiplication method
+    public static int multiply(int a, int b) {
+        return a * b;
     }
 }
