@@ -6,8 +6,8 @@ public class HelloWorld {
         System.out.println("Hello Bisrat!");
 
         // Addition
-        int sum = add(10, 20);
-        System.out.println("Addition: " + sum);
+        int Total = add(10, 20);
+        System.out.println("Addition: " + Total);
 
         // Subtraction
         int difference = subtract(20, 10);
