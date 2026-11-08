@@ -16,6 +16,10 @@ public class HelloWorld {
         // Multiplication
         int product = multiply(10, 20);
         System.out.println("Multiplication: " + product);
+
+        // Division
+        int quotient = division(10, 2);
+        System.out.println("Division: " + quotient);
     }
 
     // Addition method
@@ -31,5 +35,10 @@ public class HelloWorld {
     // Multiplication method
     public static int multiply(int a, int b) {
         return a * b;
+    }
+
+    // Division method
+    public static int division(int a, int b) {
+        return a / b;
     }
 }
